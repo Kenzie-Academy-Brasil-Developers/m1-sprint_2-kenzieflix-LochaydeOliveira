@@ -1,0 +1,153 @@
+/* lochayde oliveira T14 - 2022 */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #111113;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+
+
+}
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.cabecalho img {
+    display: flex;
+    margin: 20px 0 100px 0;
+
+}
+
+.titulo {
+    color: #ffffff;
+    margin-bottom: 70px;
+
+}
+
+.card__perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.img__perfil img {
+    border: 1px solid #11111300;
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+
+}
+
+.img__perfil img:hover {
+    border: 1px solid #c2c2c2;
+    border-radius: 15px;
+    box-shadow: 0 0 7px 0 #c2c2c2;
+    transform: scale(1.009);
+    cursor: pointer;
+}
+
+.img__adicionar {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #111113;
+    border-radius: 15px;
+    background: #1c1c1d;
+    opacity: 30%;
+    transition: all 0.3s ease-out;
+
+}
+
+.img__adicionar:hover {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #111113;
+    border-radius: 15px;
+    background: #1c1c1d;
+    box-shadow: 0 0 7px 0 #c2c2c2;
+    transform: scale(1.009);
+    opacity: 100%;
+    cursor: pointer;
+
+
+}
+
+.nome__usuario {
+    color: #9c9c9c;
+    font-size: 11px;
+    margin-top: 15px;
+    transition: all 0.1s ease-out;
+
+}
+
+.nome__usuario:hover {
+    color: #f0efef;
+    font-size: 11px;
+    margin-top: 15px;
+    transform: scale(1.007);
+    cursor: pointer;
+
+}
+
+.botao__gerenciar {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+
+}
+
+.botao__gerenciar button {
+    display: flex;
+    padding: 13px 35px;
+    border: 3px solid #9c9c9c;
+    border-radius: 7px;
+    background-color: #111113;
+    color: #9c9c9c;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    transition: all 0.3s ease-out;
+
+}
+.botao__gerenciar button:hover {
+    display: flex;
+    padding: 13px 35px;
+    border: 3px solid #eeeeee;
+    border-radius: 7px;
+    background-color: #eeeeee;
+    color: #111113;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    box-shadow: 0 0 5px 0 #c2c2c2;
+    transform: scale(1.07);
+    cursor: pointer;
+
+}
+
