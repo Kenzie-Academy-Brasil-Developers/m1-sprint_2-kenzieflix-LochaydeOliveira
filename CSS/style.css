@@ -1,15 +1,9 @@
 /* lochayde oliveira T14 - 2022 */
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-}
 
 body {
     background-color: #111113;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .container {
@@ -21,6 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 17px;
+    
 
 
 }
@@ -40,6 +35,9 @@ body {
 .titulo {
     color: #ffffff;
     margin-bottom: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
 
 }
 
@@ -54,6 +52,7 @@ body {
 .img__perfil img {
     border: 1px solid #11111300;
     border-radius: 15px;
+    opacity: 40%;
     transition: all 0.3s ease-out;
 
 }
@@ -64,6 +63,7 @@ body {
     box-shadow: 0 0 7px 0 #c2c2c2;
     transform: scale(1.009);
     cursor: pointer;
+    opacity: 100%;
 }
 
 .img__adicionar {
@@ -99,16 +99,20 @@ body {
 
 .nome__usuario {
     color: #9c9c9c;
-    font-size: 11px;
+    font-size: 14px;
     margin-top: 15px;
     transition: all 0.1s ease-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
 
 }
 
 .nome__usuario:hover {
     color: #f0efef;
-    font-size: 11px;
+    font-size: 14px;
     margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
     transform: scale(1.007);
     cursor: pointer;
 
